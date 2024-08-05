@@ -1,0 +1,7 @@
+Flask
+flask-cors
+pandas
+selenium
+webdriver-manager
+celery
+redis

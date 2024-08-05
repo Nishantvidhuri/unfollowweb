@@ -3,6 +3,6 @@ services:
     name: unfollowweb
     env: python
     rootDir: .
-    buildCommand: "pip install -r requirements.txt"
+    buildCommand: "pip install -r requirement.txt"
     startCommand: "python app.py"
     plan: free

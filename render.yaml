@@ -2,7 +2,7 @@ services:
   - type: web
     name: unfollowweb
     env: python
-    rootDir: .  # Change this if your files are in a subdirectory
-    buildCommand: "pip install -r requirement.txt"
+    rootDir: .
+    buildCommand: "pip install -r requirements.txt"
     startCommand: "python app.py"
     plan: free

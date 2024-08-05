@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: unfollowweb
+    env: python
+    buildCommand: "pip install -r requirement.txt"
+    startCommand: "python app.py"
+    plan: free
+    envVars:
+      - key: FLASK_ENV
+        value: production
